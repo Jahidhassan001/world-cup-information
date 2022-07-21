@@ -205,3 +205,31 @@ hr {
     margin-left: 20px;
     text-decoration: none;
 }
+
+/* ------------
+mobile devices
+--------------- */
+
+@media screen and (max-width:688px) {
+    .top-players {
+        width: 334px;
+        height: 472px;
+        margin-bottom: 20px;
+        flex-direction: column;
+    }
+
+    .top-article {
+        width: 50%;
+    }
+
+    .match-list-play-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/* ---------------
+Tablet Device
+------------------ */
+@media screen and(min-width:577px) and (max-width: 992px) {
+    .food {}
+}
